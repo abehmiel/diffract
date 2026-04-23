@@ -1,0 +1,21 @@
+{
+  "name": "diffract",
+  "version": "0.1.0",
+  "description": "Diffract new sources (papers, libraries, tools, techniques) through your codebase — and vice versa — to make sharp adoption decisions. Four passes plus an implementation tradeoff matrix. Feminist-epistemology framing (Barad, Haraway) operationalized for small teams moving fast.",
+  "author": {
+    "name": "Abe Hmiel",
+    "email": "abehmiel@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "slash-command",
+    "skill",
+    "methodology",
+    "adoption-decision",
+    "diffraction",
+    "barad",
+    "haraway",
+    "agentic-ai"
+  ]
+}
