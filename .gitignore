@@ -1,3 +1,5 @@
+.omc/
+.claude/
 .DS_Store
 .idea/
 .vscode/
