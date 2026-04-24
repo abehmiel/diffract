@@ -1,0 +1,14 @@
+{
+  "name": "diffract",
+  "owner": {
+    "name": "abehmiel",
+    "email": "abehmiel@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "diffract",
+      "source": ".",
+      "description": "Diffract new sources (papers, libraries, tools, techniques) through your codebase — and vice versa — to make sharp adoption decisions."
+    }
+  ]
+}
