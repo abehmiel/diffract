@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "diffract",
-      "source": ".",
+      "source": "./",
       "description": "Diffract new sources (papers, libraries, tools, techniques) through your codebase — and vice versa — to make sharp adoption decisions."
     }
   ]
