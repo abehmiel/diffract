@@ -34,6 +34,7 @@ The point of the methodology is adoption *choices*, not adoption *execution*.
 2. Run the four passes in order, applying the output discipline rules (file:line citations, `speculation:` prefix, `no non-obvious refraction here` as an allowed output).
 3. End with the implementation tradeoff matrix — at minimum three rows including `do nothing`, an `adopt differently` variant, and a full-adopt variant.
 4. Final line: one sentence recommending one action for this week.
+5. Offer to save the result to `docs/diffract/YYYY-MM-DD-<slug>.md`. Propose the exact filename; write the file verbatim only if the user confirms.
 
 The full prompt and output format live in `commands/diffract.md`. For the philosophical grounding (what diffraction is, why it beats comparison for adoption decisions), see `METHODOLOGY.md`.
 

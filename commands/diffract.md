@@ -92,3 +92,14 @@ No hedging. If two paths tie, say why the tie itself matters. If you cannot fill
 - If a pass produces nothing non-obvious, write `no non-obvious refraction here` and move on. This is a feature.
 - Keep each pass tight: 3–6 bullets max, unless an entanglement genuinely needs more.
 - **Final line of the response:** one sentence recommending one action for this week. Not a roadmap. One action.
+
+## Offer to save the artifact
+
+After the final line, ask the user on a separate line:
+
+> Save this diffraction to `docs/diffract/YYYY-MM-DD-<slug>.md`?
+
+- `YYYY-MM-DD` is today's date.
+- `<slug>` is a short kebab-case identifier derived from the source (e.g., `agents-sdk`, `barad-agential-realism`, `cloudflare-durable-objects`). Propose the exact filename so the user can accept with a single word.
+- Only write the file if the user confirms. Create `docs/diffract/` if it does not exist. Write the full response (passes, matrix, final line) verbatim — do not re-summarize.
+- If the user declines or ignores the prompt, do nothing.
