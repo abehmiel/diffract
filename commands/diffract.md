@@ -41,6 +41,7 @@ Produce:
 
 - **What latent pattern in the codebase gets named by this source?** (The source may not be new to us — it may be a name for something we already shipped.)
 - **What default in the codebase is revealed, by this source, to be a choice rather than a given?** (Cite the file where the "default" lives.)
+- **For each default you named: who enacted it, and under what constraints?** A codebase is a sediment of prior cuts, each made by someone, at some point, for some reason. If you cannot name the prior cut, mark it `unknown cut:` and treat it as suspect rather than as ground truth. "The codebase uses X" is not a standpoint. "This codebase uses X because [person/team/constraint], and that cut is still load-bearing because [reason]" is.
 - **Where is our current approach a local optimum that this source would destabilize?** What would we lose, specifically, by being destabilized?
 
 ## Pass 3 — The entanglements (not a diff, a relation)

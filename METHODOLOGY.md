@@ -38,6 +38,7 @@ What does the codebase look like under the source's frame? What was it already d
 
 - What latent pattern gets named by this source? (The source may not be new — it may be a name for what you already shipped.)
 - What default in the codebase is revealed, by this source, to be a choice rather than a given?
+- For each default you named: who enacted it, and under what constraints? If you cannot name a prior cut — a specific decision, made by someone, at some point, for some reason — you are treating a sediment of prior decisions as a given. Name the cut or mark it `unknown cut:`. "The codebase uses X" is not a standpoint. "This codebase uses X because [person/team/constraint], and that cut is still load-bearing because [reason]" is.
 - Where is the current approach a local optimum that this source would destabilize? What would you lose by being destabilized?
 
 ### Pass 3 — The entanglements (not a diff, a relation)
@@ -91,6 +92,14 @@ Three rules make or break the output:
 
 ## Credits
 
-The philosophical move here is not ours. Diffraction as method comes from Donna Haraway ("The Promises of Monsters," 1992; and much of her later work) and is developed rigorously by Karen Barad (*Meeting the Universe Halfway*, 2007). What this plugin contributes is the operational form — four passes, a forced-verdict tradeoff matrix, and anti-slop discipline — that makes the methodology usable inside a software engineering workflow.
+The philosophical work here is not ours. What follows names what we borrowed and from whom.
 
-Any unclarity or reduction in that operationalization is ours, not theirs.
+**Donna Haraway** introduced diffraction as a feminist alternative to reflection. Where reflection reproduces the same image at a distance, diffraction tracks difference — it asks what patterns emerge when waves (of light, of meaning, of knowledge) pass through and interfere with each other. The move appears in "The Promises of Monsters" (1992) and is further developed in *Modest_Witness@Second_Millennium* (1997). Haraway draws the optics metaphor partly from Trinh T. Minh-ha, whose work on non-appropriative, non-reflective modes of knowing (*Woman, Native, Other*, 1989) established that how you look determines what can be seen — and whose seeing is erased. Haraway's situated knowledges — the argument that partial, located perspectives are the condition of genuine objectivity, not an obstacle to it — is where Passes 1 and 2 of this methodology draw their justification. Reading the source *through* the codebase and the codebase *through* the source is only coherent if you accept that there is no view from nowhere, only situated views that can be held accountable.
+
+**Karen Barad** gives us agential realism, intra-action, and the agential cut (*Meeting the Universe Halfway*, 2007). Intra-action: entities do not pre-exist their relations and then interact; they are constituted through their entanglements. The agential cut: boundaries between things are enacted by specific material-discursive practices, not found in nature. Barad's framework draws on Niels Bohr's philosophy-physics — specifically Bohr's insistence that the apparatus of measurement is not separable from what is measured, and that phenomena (not objects) are the primary units of ontological analysis. Pass 3 (entanglements) and Pass 4 (the agential cut) are direct translations of Barad's concepts into adoption-decision form.
+
+**Sandra Harding** (*Whose Science? Whose Knowledge?*, 1991) and **Patricia Hill Collins** (*Black Feminist Thought*, 1990) established that standpoint — where you are located in systems of power — is an epistemological resource, not just a bias to be corrected. Strong objectivity requires examining background assumptions and the social relations that produce them. The four passes assume this: a codebase is not a neutral artifact, and neither is the person evaluating an external source against it.
+
+**What this operationalization loses.** Haraway and Barad are doing feminist science studies. The political stakes of their work are explicit: who gets to produce knowledge, whose practices are rendered invisible by dominant epistemic frameworks, what accountability for knowledge-making looks like under conditions of unequal power. This plugin converts those stakes into a software adoption workflow. That is itself a reduction. The agential cut in Pass 4 asks "who and what is excluded" — but the exclusions that matter most to Barad are not library dependencies. Using this methodology will not make an adoption decision feminist. It will, at best, make it more honest about what the decision enacts and what it forecloses.
+
+We name that reduction not as a disclaimer but as a location: this tool operates at a particular scale with particular constraints, and those constraints are themselves a cut. Any unclarity or distortion in the operationalization is ours. The source material is precise.
