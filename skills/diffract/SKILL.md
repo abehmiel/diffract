@@ -1,6 +1,6 @@
 ---
 name: diffract
-description: Use whenever the user wants to decide whether to adopt a new external source (paper, library, framework, tool, blog post, technique) into the current codebase. Trigger on phrases like "should we use X", "is this worth adopting", "read this through our codebase", "diffract this", "adopt-or-pass", "what about <tool/library/paper>", "is <X> worth picking up", or whenever the user shares a URL or reference and asks for a sharp adopt-vs-pass decision. Applies a diffractive reading (Haraway/Barad) with four structured passes (source→code, code→source, entanglements, agential cut) and an implementation tradeoff matrix that forces a verdict of adopt / adopt-differently / watch / pass. Produces non-obvious insights that plain comparison misses. Do NOT use for bug fixes, tactical how-to questions inside an already-chosen framework, or routine dependency upgrades — the cut has already been made.
+description: Decide whether to adopt an external source (paper, library, tool, technique) into the current codebase. Triggers on "should we use X", "is X worth adopting", "diffract this", "adopt or pass", or a shared URL with an adoption question. Runs a four-pass diffractive reading (Haraway/Barad) and forces a verdict of adopt / adopt-differently / watch / pass. Skip for bug fixes, how-to questions inside an already-adopted dependency, or routine upgrades.
 ---
 
 # Diffractive Reading for Adoption Decisions
